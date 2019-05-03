@@ -1,0 +1,27 @@
+get list of windows on current desktop with
+wmctrl -lx 
+second column is number of desktop
+
+2 scripts, one with 1 args (scr1) and one with 2 args (scr2)
+
+scr2 is almost done
+its for pinned apps
+first arg: app class
+second arg: app name (so it will be called)
+TO DO:
+minimize window,
+recognize current desktop,
+reorder the taskbar if the app opens in not desired order
+
+scr1
+for unpinned apps in taskbar
+arg: position in taskbar
+logic:
+get the list of apps in current desktop
+find the app in args position
+focus it
+if already focused, minimize
+
+
+wmctrl -d for getting list of desktops,
+current one is marked with *
