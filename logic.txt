@@ -25,3 +25,6 @@ if already focused, minimize
 
 wmctrl -d for getting list of desktops,
 current one is marked with *
+
+
+lxpanel 0.9.3
